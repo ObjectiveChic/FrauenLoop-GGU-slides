@@ -1,0 +1,102 @@
+body {
+  /* Location of the image */
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/corporate-grey-low-poly-geometric-motion-background-video-animation-hd-1920x1080_nypfik1eg__M0008.jpg);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #lightgray;
+}
+
+
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+a {font-family: 'Slabo 27px', serif;}
+
+
+
+h1 {
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	color: #1e2f2f
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	color: #1e2f2f
+}
+
+.list2 {font-family: 'Roboto Slab', serif;
+	text-align: center;
+	color: #1e2f2f}
+
+
+.maintext {
+	font-family: 'Roboto Slab', serif;
+	color: #1e2f2f
+}
+
+.center {text-align: center;}
+.centervideo {text-align: center;}
+
+.divbg {
+	background-color: white}
+
+#divtext{
+	margin:auto;
+	width:80%;}
+
+.alignmentForAnchors {
+    padding-top: 60px;
+    margin-top: -60px;
+}
